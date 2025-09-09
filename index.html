@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cart Items</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header class="flex bg-gray-100 items-center justify-center shadow-md">
+    <nav class="flex float-left">Cart Qty : <span class="bg-gray-100 font-bold pl-4 qty">0</span></nav>
+    <a href="cart.html" class="bg-red-500 p-4 border-4">Cart Page</a>
+</header>
+<body class="bg-gray-100 p- flex items-center flex-col justify-center">
+  <h1 class="text-3xl font-bold mb-8 text-center">Shopping Cart</h1>
+  
+  <div id="items-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <!-- Items will be dynamically inserted here -->
+     
+  </div>
+
+  <!-- Your items.js should be included before your main script -->
+  <script src="script.js" type="module"></script>
+</body>
+</html>
